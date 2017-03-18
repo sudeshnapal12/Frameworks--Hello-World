@@ -13,3 +13,6 @@ NOTE: In Windows10 to open cql start Cassandra server by starting cassandra.bat 
   * Cassandra database connection in Java. 
   * Basic CRUD operations. 
   * Creating POJO objects of tables.
+  
+  #### Apache Camel
+  Apache Camel is an open source Java framework that focuses on making integration easier and more accessible to developers. 
