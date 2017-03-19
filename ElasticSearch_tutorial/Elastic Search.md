@@ -1,6 +1,14 @@
 ## Elastic Search
+
+* http://joelabrahamsson.com/elasticsearch-101/ </br>
+Follow this tutorial to get basic hands-on in using Elastic Search. Elastic search are REST apis. So, you can use POSTMAN to run them. Second, is also "Sense" Chrome Browser plugin cutomised for Elastic Search. Third you can run using CURL. Haven't explored this third option though. All examples are given using CURL. These can be translated into REST URLS and checked using any REST clients available.
+
 * Elasticsearch Setup </br>
 Unzip the downloaded setup, navigate to bin folder and start the server by running elasticsearch.bat file.
+
+* Add these in elasticssearch.yml if the elastic search doesnot start. </br>
+http.cors.enabled: true </br>
+http.cors.allow-origin: "*" </br>
 
 * Elasticsearch provides an interface to browse through the clusters, indexes and data which can be accessed using the URL http://localhost:9200/_plugin/head. 
 
